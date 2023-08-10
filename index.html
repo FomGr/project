@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<a class="header__logo" href="index.html">
+					<img src="images/src/Logo-black.svg" alt="logo">
+				</a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#" class="menu__link active">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Галерея</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Проекты</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Сертификаты</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="header__burger-btn" id="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<section class="top">
+				<div class="top__container container">
+					<div class="top__slider-info">
+						<h1 class="top__slider-title title">Project <span>Home</span></h1>
+						<div class="top__slider-arrow">
+							<p class="top__slider-left"></p>
+							<p class="top__slider-right"></p>
+						</div>
+						<div class="top__slider-number">
+							<img src="../images/slide-numbers.png" alt="">
+						</div>
+					</div>
+					<div class="top__right">
+						<a class="top__button button-white" href='#'>Взглянуть</a>
+						<div class="top__slider">
+							<div class="top__slider-item">
+								<img class="top__slider-img" src="../images/slider-img.png" alt="images">
+							</div>
+							<div class="top__slider-item">
+								<img class="top__slider-img" src="../images/slider-img.png" alt="images">
+							</div>
+						 </div>
+					</div>
+				</div>
+			</section>
+			<section class="company">
+				<div class="company__container container">
+					<div class="company__left">
+						<div class="company__images">
+							<div class="company__images-item1">
+								<img src="../images/Company-1.png" alt="img">
+							</div>
+							<div class="company__images-item2">
+								<img src="../images/Company-2.png" alt="img">
+							</div>
+							<div class="company__images-item3">
+								<img src="../images/Company-3.png" alt="img">
+							</div>
+						</div>
+					</div>
+					<div class="company__info">
+						<h1 class="company__title title">О компании</h1>
+						<div class="company__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+						<a class="company__button button-white" href="#">Читать</a>
+					</div>
+				</div>
+			</section>
+			<section class="tasks">
+				<div class="tasks__container container">
+					<h1 class="tasks__title title">Основные задачи</h1>
+					<div class="tasks__row">
+						<div class="tasks__column tasks-column--1">
+							<p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+						</div>
+						<div class="tasks__column tasks-column--2">
+							<p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="center">
+				<div class="center__container container">
+					<h1 class="center__title title">Наши проекты</h1>
+					<div class="center__images">
+						<div class="center__item center__item-1">
+							<img src="../images/project-1.png" alt="img">
+							<div class="center__info">
+								<p>Досуговый центр</p>
+								<a href="#">Подробнее</a>
+							</div>
+						</div>
+						<div class="center__item center__item-2">
+							<img src="../images/project-2.png" alt="img">
+						</div>
+						<div class="center__item center__item-3">
+							<img src="../images/project-3.png" alt="img">
+						</div>
+						<div class="center__item center__item-4">
+							<img src="../images/project-4.png" alt="img">
+						</div>
+						<div class="center__item center__item-5">
+							<img src="../images/project-5.png" alt="img">
+						</div>
+						
+					</div>
+					<div class="center__button">
+						<a class="center__button button-gray" href="#">Все проекты</a>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container container">
+					<div class="contact__title title">Связаться с нами</div>
+					<div class="contact__row">
+						<form class="contact__form">
+							<input class="contact__form-input" placeholder="Имя" type="text">
+							<input class="contact__form-input" placeholder="Номер телефона*" name="userphone" type="tel">
+							<input class="contact__form-input" placeholder="E-mail" type="email">
+							<input class="contact__form-input" placeholder="Интересующий товар/услуга" type="text">
+							<textarea class="contact__form-area" placeholder="Сообщение*"></textarea>
+							<p>Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+							<button class="contact__form-btn button-gray" type="submit">Отправить</button>
+						</form>
+						<div class="contact__image">
+							<img src="../images/connection.png" alt="img">
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__top">
+					<div class="footer__column">
+						<div class="footer__logo">
+							<img src="images/src/Logo-white.svg" alt="logo">
+						</div>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Информация</h3>
+						<nav class="footer__menu menu-footer">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Главная</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Галерея</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Проекты</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Сертификаты</a>
+								</li>
+								<li class="menu-footer__item">
+									<a href="" class="menu-footer__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+		
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Контакты</h3>
+						<div class="footer__adress">
+							<p>100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</p>
+						</div>
+						<div class="footer__tel">
+							<a href="tel:+380000000000">+38(000) 000 00 00</a>
+						</div>
+						<div class="footer__mail">
+							<a href="mailto:mail@gmail.com">mail@gmail.com</a>
+						</div>
+					</div>
+					<div class="footer__column">
+						<h3 class="footer__title">Социальные сети</h3>
+						<ul class="social-list">
+							<li class="social-list__item">
+								<a href="" class="social-list__link">
+									<img class="social-list__icon" src="images/src/facebook.svg" alt="facebook">
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a href="" class="social-list__link">
+									<img class="social-list__icon" src="images/src/twitter.svg" alt="twitter">
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a href="" class="social-list__link">
+									<img class="social-list__icon" src="images/src/Linked In.svg" alt="Linked In">
+								</a>
+							</li>
+							<li class="social-list__item">
+								<a href="" class="social-list__link">
+									<img class="social-list__icon" src="images/src/pininterest.svg" alt="pininterest">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p>© 2019 Digital Project. Все права защищены.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="../js/main.min.js"></script>
+</body>
